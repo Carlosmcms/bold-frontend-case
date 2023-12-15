@@ -1,9 +1,24 @@
 #filter-settings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
   font-size: 0.8rem;
   text-transform: uppercase;
+  text-align: center;
   background-color: whitesmoke;
   border-radius: 5px;
   width: 100%;
-  padding: 10px;
+  padding: 10px 40px;
 
+  svg {
+    width: 1rem;
+    height: 1rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  #filter-settings {
+    width: fit-content;
+  }
 }

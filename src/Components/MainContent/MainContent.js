@@ -4,15 +4,21 @@ import RangeSelector from '../RangeSelector/RangeSelector'
 import SummaryCard from '../SummaryCard/SummaryCard'
 import './MainContent.scss'
 
-const MainContent = () => (
-  <section className='main-content'>
-    <SummaryCard />
-    <div className='controls'>
-      <RangeSelector />
-      <FilterButton />
-    </div>
-    <InvoiceDetails />
-  </section>
-)
+// import transacciones from '../../scss/data'
+
+const MainContent = () => {
+  return (
+    <main className='main-content'>
+      <div className='content-header'>
+        <SummaryCard />
+        <div className='controls'>
+          <RangeSelector />
+          <FilterButton />
+        </div>
+      </div>
+      <InvoiceDetails />
+    </main>
+  )
+}
 
 export default MainContent

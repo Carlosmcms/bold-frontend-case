@@ -1,3 +1,23 @@
+a {
+  font-size: 0.8rem;
+  color: #e5e7ef;
+
+  &:hover {
+    animation: header-link-hover 0.2s ease 0s 1 normal forwards running;
+  }
+
+span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+  .help-circle {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .header-component {
   display: flex;
   align-items: center;
@@ -8,15 +28,16 @@
 
 .nav-menu {
   display: flex;
+  align-items: center;
   gap: 30px;
 }
 
-a {
-  font-size: 0.8rem;
-  color: #e5e7ef;
+#bold-logo {
+  height: 20px;
+  width: 70px;
 
   &:hover {
-    animation: header-link-hover 0.2s ease 0s 1 normal forwards running;
+    animation: logo-hover 0.2s ease 0s 1 normal forwards running;
   }
 }
 
@@ -26,5 +47,14 @@ a {
   }
   to {
     color: #323232;
+  }
+}
+
+@keyframes logo-hover {
+  from {
+    fill: #e5e7ef;
+  }
+  to {
+    fill: #6d6d6d;
   }
 }

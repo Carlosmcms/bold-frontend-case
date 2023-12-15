@@ -1,0 +1,21 @@
+.help-circle {
+  path {
+    fill: none;
+    stroke: #e5e7ef;
+  }
+
+  circle {
+    fill: #e5e5ef;
+  }
+
+  #help-circle-1 {
+    stroke-miterlimit: 10px;
+    stroke-width: 32px;
+  }
+
+  #help-circle-2 {
+    stroke-linecap: round;
+    stroke-miterlimit: 10px;
+    stroke-width: 28px;
+  }
+}
