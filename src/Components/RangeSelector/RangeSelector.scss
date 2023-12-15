@@ -1,0 +1,26 @@
+#range-selector {
+  display: flex;
+  justify-content: space-evenly;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button.selector {
+  width: 25vw;
+  padding: 5px;
+  border-radius: 25px;
+
+  &:hover {
+    animation: range-selector-hover 0.3s ease 0s 1 normal forwards running;
+  }
+}
+
+@keyframes range-selector-hover {
+  from {
+    background-color: transparent;
+  }
+  to {
+    background-color: #d1d1d1;
+  }
+}

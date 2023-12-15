@@ -1,0 +1,30 @@
+.header-component {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background: linear-gradient(90deg, #111e6c 0%, #ef434e 150%);
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  font-size: 0.8rem;
+  color: #e5e7ef;
+
+  &:hover {
+    animation: header-link-hover 0.2s ease 0s 1 normal forwards running;
+  }
+}
+
+@keyframes header-link-hover {
+  from {
+    color: #e5e7ef;
+  }
+  to {
+    color: #323232;
+  }
+}
