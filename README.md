@@ -1,3 +1,13 @@
+# Caso de Frontend - Bold
+
+Actualmente, los filtros no están haciendo uso del contexto (useContext) de las ventas. Sin embargo, la tabla de ventas muestra la información correspondiente, así como la tarjeta de resumen/total muestra la suma de las ventas listadas en la tabla principal. La lista de ventas en el contexto puede ser filtrada en ese mismo contexto, agregando el evento a cada uno de los botones del selector de rango (hoy, esta semana, diciembre). También cambiaría los checkboxes del tooltip de filtro por tres radio inputs que permita especificar cuál de los filtros (o si no se aplica filtro) está vigente; esto también es persistente si se hace uso de context.
+
+## Cómo usar la app
+1. Descarga el repositorio desde GitHub.
+2. Una vez se tenga el código localmente, ve a la dirección de la carpeta (`C:/.../bold-frontend-case`) y abre una terminal en esa carpeta.
+3. Escribe `npm install` para agregar las dependencias necesarias.
+4. Escribe `npm start` para desplegar la aplicación.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
